@@ -48,6 +48,7 @@ FROM VW_Pedidos vwp
 RIGHT OUTER JOIN vw_meses m on m.clave = datepart(month, fecha)
 GROUP BY month(fecha)
 
+
 --5.- NOMBRE DEL EMPLEADO, TOTAL DE PEDIDOS REALIZADOS E IMPORTE TOTAL.
 
 SELECT empNombre, COUNT(Folio), 'Total pedidos'= SUM(importe)
@@ -79,6 +80,8 @@ from VW_PEDIDOS
 WHERE YEAR(FECHA)= 2020
 group by edoNombre
 GO
+
+
 
 
 -- 8.- AÑO, Y TOTAL DE PEDIDOS REALIZADOS POR DIA DE LA SEMANA.
