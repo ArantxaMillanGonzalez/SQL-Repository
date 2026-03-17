@@ -1,3 +1,4 @@
+--Creacion de la BD
 CREATE DATABASE PEDIDOS
 GO
 
@@ -107,3 +108,48 @@ go
  ALTER TABLE EMPLEADOS ADD
  CONSTRAINT CC_empCelular CHECK(LEN(empCelular)=10)
  GO
+
+-
+
+---Inserciones
+
+INSERT INTO PAISES VALUES 
+(1, 'México'),
+(2, 'Estados Unidos'),
+(3, 'Canadá'),
+(4, 'España'),
+(5, 'Colombia')
+GO
+
+INSERT INTO ESTADOS VALUES 
+(1, 1, 'Sinaloa', '58000 km'),
+(1, 2, 'Sonora', '184000 km'),
+(1, 3, 'Jalisco', '80000 km')
+GO
+
+
+INSERT INTO CLIENTES VALUES 
+(1, 'Juan', 'Pérez López', 'Av. Reforma 123', 'JUPL800101ABC', 1, 1),
+(2, 'María', 'García Ruiz', 'Hidalgo 456', 'MAGR850202DEF', 1, 2),
+(3, 'Carlos', 'Martínez Vega', 'Juárez 789', 'CAMV900303GHI', 1, 3),
+(4, 'Ana', 'López Torres', 'Morelos 234', 'ANLT750404JKL', 1, 1),
+(5, 'Pedro', 'Sánchez Cruz', 'Allende 567', 'PESC880505MNO', 1, 2)
+GO
+
+
+INSERT INTO EMPLEADOS VALUES 
+(1, 'Roberto', 'Gómez Flores', '6671234567', NULL),
+(2, 'Laura', 'Hernández Ríos', '6672345678', 1),
+(3, 'Miguel', 'Torres Díaz', '6673456789', 1),
+(4, 'Sofía', 'Ramírez Castro', '6674567890', 2),
+(5, 'Javier', 'Morales Vega', '6675678901', 3)
+GO
+
+
+INSERT INTO PEDIDOS VALUES 
+(1, '2024-01-15', 1, 2, 1500.50),
+(2, '2024-01-20', 2, 3, 2300.75),
+(3, '2024-02-05', 3, 4, 850.25),
+(4, '2024-02-10', 4, 5, 3200.00),
+(5, '2024-02-15', 5, 2, 1750.30)
+GO
