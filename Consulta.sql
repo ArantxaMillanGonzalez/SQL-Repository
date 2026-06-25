@@ -227,16 +227,16 @@ VALUES
 -- Inserción de Clientes
 INSERT INTO Clientes (ClienteID, Nombre_Cli, Ap_Cli, Am_Cli, Fecha_nacimiento_Cli, Correo_Cli, Direccion_Cli, Telefono_Cli)
 VALUES 
-(1, 'Juan', 'García', 'López', '1995-03-15', 'juan.garcia@email.com', 'Calle Principal 123', '5512345678'),
-(2, 'María', 'Rodríguez', 'Martínez', '1992-07-22', 'maria.rodriguez@email.com', 'Avenida Central 456', '5523456789'),
-(3, 'Carlos', 'Hernández', 'Pérez', '1998-11-05', 'carlos.hernandez@email.com', 'Calle Secundaria 789', '5534567890'),
-(4, 'Ana', 'López', 'García', '1990-09-10', 'ana.lopez@email.com', 'Boulevard Norte 234', '5545678901'),
-(5, 'Pedro', 'Martínez', 'Sánchez', '1993-05-20', 'pedro.martinez@email.com', 'Calle Este 567', '5556789012'),
-(6, 'Laura', 'Pérez', 'Rodríguez', '1996-12-01', 'laura.perez@email.com', 'Avenida Sur 890', '5567890123'),
-(7, 'Miguel', 'Sánchez', 'López', '1994-08-15', 'miguel.sanchez@email.com', 'Calle Oeste 123', '5578901234'),
-(8, 'Isabel', 'Gómez', 'Fernández', '1997-04-25', 'isabel.gomez@email.com', 'Boulevard Sur 456', '5589012345'),
-(9, 'Jorge', 'Fernández', 'Gómez', '1991-06-30', 'jorge.fernandez@email.com', 'Avenida Norte 789', '5590123456'),
-(10, 'Sofia', 'Díaz', 'Pérez', '1999-02-14', 'sofia.diaz@email.com', 'Calle Principal 321', '5501234567');
+(1, 'Juan', 'García', 'López', '1995-03-15', 'juan.garcia@gmail.com', 'Calle Principal 123', '5512345678'),
+(2, 'María', 'Rodríguez', 'Martínez', '1992-07-22', 'maria.rodriguez@gmail.com', 'Avenida Central 456', '5523456789'),
+(3, 'Carlos', 'Hernández', 'Pérez', '1998-11-05', 'carlos.hernandez@gmail.com', 'Calle Secundaria 789', '5534567890'),
+(4, 'Ana', 'López', 'García', '1990-09-10', 'ana.lopez@gmail.com', 'Boulevard Norte 234', '5545678901'),
+(5, 'Pedro', 'Martínez', 'Sánchez', '1993-05-20', 'pedro.martinez@gmail.com', 'Calle Este 567', '5556789012'),
+(6, 'Laura', 'Pérez', 'Rodríguez', '1996-12-01', 'laura.perez@gmail.com', 'Avenida Sur 890', '5567890123'),
+(7, 'Miguel', 'Sánchez', 'López', '1994-08-15', 'miguel.sanchez@gmail.com', 'Calle Oeste 123', '5578901234'),
+(8, 'Isabel', 'Gómez', 'Fernández', '1997-04-25', 'isabel.gomez@gmail.com', 'Boulevard Sur 456', '5589012345'),
+(9, 'Jorge', 'Fernández', 'Gómez', '1991-06-30', 'jorge.fernandez@gmail.com', 'Avenida Norte 789', '5590123456'),
+(10, 'Sofia', 'Díaz', 'Pérez', '1999-02-14', 'sofia.diaz@gmail.com', 'Calle Principal 321', '5501234567');
 
 -- Inserción de Empleados 
 INSERT INTO Empleados (RFC, Nombre_Em, Ap_Em, Am_Em, Fecha_Nacimiento_Em, Fecha_Contratacion_Em, Puesto, Sueldo, Telefono_Em)
